@@ -30,6 +30,7 @@ p {
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 p {
@@ -43,6 +44,6 @@ p {
 }
 
 .foto {
-  flex: 0 0 25%;
-  /*tady měnítm procenta podle toho, kolik obrázků chci mít na stránce*/
+  flex-basis: calc(100%/3);
+  /*tady měnít podle toho kolik chci na stránce obrázků*/
 }
